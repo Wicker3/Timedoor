@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/CSS" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="screen" id="calculation" colspan="5"><p></p></td>
+        </tr>
+        <tr>
+            <td class="display"><button id="1" onclick="O1()">1</button></td>
+            <td class="display"><button id="2" onclick="O2()">2</button></td>
+            <td class="display"><button id="3" onclick="O3()">3</button></td>
+            <td class="display"><button id="DEL" onclick="DEL()">DEL</button></td>
+            <td class="display"><button id="AC" onclick="AC()">AC</button></td>
+        </tr>
+        <tr>
+            <td class="display"><button id="4" onclick="O4()">4</button></td>
+            <td class="display"><button id="5" onclick="O5()">5</button></td>
+            <td class="display"><button id="6" onclick="O6()">6</button></td>
+            <td class="display"><button id="X" onclick="MULTIPLY()">X</button></td>
+            <td class="display"><button id="/" onclick="DIVIDE()">/</button></td>
+        </tr>
+        <tr>
+            <td class="display"><button id="7" onclick="O7()">7</button></td>
+            <td class="display"><button id="8" onclick="O8()">8</button></td>
+            <td class="display"><button id="9" onclick="O9()">9</button></td>
+            <td class="display"><button id="+" onclick="PLUS()">+</button></td>
+            <td class="display"><button id="-" onclick="MINUS()">-</button></td>
+        </tr>
+        <tr>
+            <td class="display"><button id="+/-" onclick="POSITIVE_NEGATIVE()">+/-</button></td>
+            <td class="display"><button id="0" onclick="O0()">0</button></td>
+            <td class="display"><button id="." onclick="DECIMAL()">.</button></td>
+            <td class="display"><button id="ANS" onclick="ANSWEAR()">ANS</button></td>
+            <td class="display"><button id="=" onclick="EQUAL()">=</button></td>
+        </tr>
+    </table>
+    <script src="code.js"></script>
+</body>
+</html>

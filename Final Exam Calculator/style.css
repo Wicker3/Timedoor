@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table tr td {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    max-width: 195px;
+}
+
+.screen {
+    height: 125px;
+    vertical-align: top;
+    padding-left: 2px;
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    text-align: justify;
+    text-align-last: justify;
+    line-height: 1.5;
+    font-family: monospace;
+}
+
+.display {
+    text-align: center;
+    font-weight: bold;
+    font-variant-numeric: tabular-nums;
+}
+
+.display:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+}
